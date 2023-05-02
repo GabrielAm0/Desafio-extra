@@ -2,10 +2,10 @@
 
 Aplicação WEB em PHP de cadastro de Clientes.
 
-============================================================================================================================================================================================================================
+=====
 Com um extra, tela de login funcional, url amigável com rotas.
 Apenas há um problema, os cadastros no banco de dados conforme foi solicitado não carregam, quebrei muito a cabeça para achar o erro mas não consegui corrigir, caso você programador saiba corrigir e me ajudar estou de braços abertos
-============================================================================================================================================================================================================================
+=====
 
 Para utilizar esta aplicação em seu computador siga estes passos:
 
