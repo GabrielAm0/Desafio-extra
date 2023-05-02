@@ -2,6 +2,11 @@
 
 Aplicação WEB em PHP de cadastro de Clientes.
 
+============================================================================================================================================================================================================================
+Com um extra, tela de login funcional, url amigável com rotas.
+Apenas há um problema, os cadastros no banco de dados conforme foi solicitado não carregam, quebrei muito a cabeça para achar o erro mas não consegui corrigir, caso você programador saiba corrigir e me ajudar estou de braços abertos
+============================================================================================================================================================================================================================
+
 Para utilizar esta aplicação em seu computador siga estes passos:
 
 Baixe e instale o XAMPP:
@@ -24,9 +29,17 @@ Após isto deve ser criada uma tabela com o nome "registros" com 7 linhas, segue
 
 Após isto clique em Guardar.
 
+Após isto clique novamente em novo, para criar um banco de dados novo.
+Ele deve ser nomeado de "login" e estar no conjunto de caracterers "utf8_general_ci".
+Após isto deve ser criada uma tabela com o nome "usuario" com 4 linhas, segue um print com a configuração de cada linha:
+
+![image](https://user-images.githubusercontent.com/90906766/235651621-66e08bf8-284e-4fb7-ab19-7781fb52769b.png)
+
+Após isto clique em Guardar.
+
 Após isto baixe os arquivos do projeto, abra a pasta Desafio-extra-main e copie todos os arquivos dentro dela. 
 
-Após isto vá no caminho onde você instalou o XAMPP e acesse a pasta "htdocs" (Normalmente o caminho é "C:\xampp\htdocs"), e crie uma pasta chamad Desafio para dentro da pasta "htdocs".
+Após isto vá no caminho onde você instalou o XAMPP e acesse a pasta "htdocs" (Normalmente o caminho é "C:\xampp\htdocs"), e crie uma pasta chamada Desafio para dentro da pasta "htdocs". (Caso tenha feito o passoa a passo para ver apenas o desafio como foi pedido, peço que remeie a pasta do anterior para outro nome, para que este extra funcione corretamente.)
 Depois disto cole todos os arquivos dentro de Desafio-extra-main dentro da pasta Desafio que você criou.
 
 Após isto basta acessar em seu navegador o link "http://localhost/Desafio" para acessar o projeto.
