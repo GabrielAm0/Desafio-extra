@@ -16,7 +16,7 @@ class HomeController
         unset($_SESSION['usr']);
         session_destroy();
 
-        header('Location: http://localhost/Desafio/');
+        header('Location: http://localhost/Desafio-extra/');
     }
 
 }

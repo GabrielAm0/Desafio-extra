@@ -19,12 +19,12 @@ class LoginController
             $user->setPassword($_POST['password']);
             $user->validarLogin();
 
-            header('Location: http://localhost/Desafio/home');
+            header('Location: http://localhost/Desafio-extra/home');
 //            echo 'deu bom';
 
         }catch (\Exception $e){
 
-            header('Location: http://localhost/Desafio');
+            header('Location: http://localhost/Desafio-extra/');
 //            echo 'nao deu bom';
 
         }

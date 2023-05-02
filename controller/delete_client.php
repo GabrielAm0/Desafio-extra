@@ -9,5 +9,5 @@ $id = $_POST['id'];
 
 IF(isset($id) && !empty($id)){
     $manager->deleteCliente("registros", $id);
-    header("Location: http://localhost/Desafio/home");
+    header("Location: http://localhost/Desafio-extra/");
 }

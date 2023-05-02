@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="col-md-6 right">
-                    <form class="form-regist" method="POST" action="http://localhost/Desafio/login/check/">
+                    <form class="form-regist" method="POST" action="http://localhost/Desafio-extra/login/check/">
 
                         <div class="input-box">
                             <header>Login</header>
@@ -33,7 +33,7 @@
 
                 </div>
                 <div class="signin">
-                    <span>Não possui conta?<a class="ms-2" href="http://localhost/Desafio/registro">Registre-se</a></span>
+                    <span>Não possui conta?<a class="ms-2" href="http://localhost/Desafio-extra/registro">Registre-se</a></span>
                 </div>
             </div>
         </div>

@@ -9,6 +9,6 @@ $data = $_POST;
 
 IF(isset($data) && !empty($data)){
     $manager->insertClient("registros", $data);
-    header("Location: http://localhost/Desafio/home");
+    header("Location: http://localhost/Desafio-extra/");
     echo '<script> alert("Cliente incluído com sucesso!");</script>';
 }

@@ -19,7 +19,7 @@ include_once 'head.php';
 
             <div class="titulo col-md-4">
                 <div class="display-flex">
-                    <img class=logo src="../assets/img/logo.png" alt="Logo">
+                    <img class=logo src="/Desafio/assets/img/logo.png" alt="Logo">
                     <h2 class="titulo client-list-register m-0">Registrar<i class="cor-list pl-2 fa fa-list"></i></h2>
                 </div>
             </div>
@@ -32,7 +32,7 @@ include_once 'head.php';
 
     <div class="container">
 
-        <form class="row g-3" method="post" action="/Desafio/controller/insert_client.php">
+        <form class="row g-3" method="post" action="http://localhost/Desafio-extra/insert">
             <div class="col-md-6">
                 <label class="form-label">Nome: <i class=" fa fa-user"></i></label>
                 <input class="form-control" type="text" name="name" placeholder="Nome" required autofocus>
@@ -69,7 +69,7 @@ include_once 'head.php';
                 </button>
 
                 <div class="botao">
-                    <a class="link-botao" style="text-decoration: none;" href="http://localhost/Desafio/home">Voltar</a>
+                    <a class="link-botao" style="text-decoration: none;" href="http://localhost/Desafio-extra/">Voltar</a>
                 </div>
             </div>
         </form>

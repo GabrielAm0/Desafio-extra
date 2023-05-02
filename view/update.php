@@ -1,15 +1,18 @@
 <?php
 
-include_once '../controller/RefreshPage.php';
-include_once '../view/head.php';
-include_once  '../model/conexao.class.php';
-include_once  '../model/Manager.class.php';
+include_once '/Desafio/controller/RefreshPage.php';
+include_once '/Desafio/view/head.php';
+include_once  '/Desafio/model/conexao.class.php';
+include_once  '/Desafio/model/Manager.class.php';
+
 
 
 $manager = new Manager();
 
 $id = $_POST['id'];
+
 ?>
+
 <!-- Folha de Estilo(CSS) - Direta -->
 <link rel="stylesheet" href="../assets/style/style.css">
 <link rel="shortcut icon" href="/Desafio/assets/img/favicon.ico" type="image/x-icon">
@@ -28,7 +31,7 @@ $id = $_POST['id'];
 
             <div class="titulo col-md-4">
                 <div class="display-flex">
-                    <img class=logo src="../assets/img/logo.png" alt="Logo">
+                    <img class=logo src="/Desafio/assets/img/logo.png" alt="Logo">
                     <h2 class="titulo client-list-register m-0">Editar cadastro<i class="cor-list pl-2 fa fa-list"></i></h2>
                 </div>
             </div>
@@ -43,7 +46,7 @@ $id = $_POST['id'];
 
         <?php foreach ($manager->getInfo("registros", $id) as $client_info) : ?>
 
-            <form class="row g-3" method="post" action="../controller/update_client.php">
+            <form class="row g-3" method="post" action="http://localhost/Desafio-extra/update">
                     <div class="col-md-6">
                         <label class="form-label">Nome: <i class=" fa fa-user"></i></label>
                         <input class="form-control" type="text" name="name" placeholder="Nome" required autofocus value="<?= $client_info['name'] ?>">
@@ -85,7 +88,7 @@ $id = $_POST['id'];
                     </button>
 
                     <div class="botao">
-                        <a class="link-botao" style="text-decoration: none;" href="home.php">Voltar</a>
+                        <a class="link-botao" style="text-decoration: none;" href="http://localhost/Desafio-extra/">Voltar</a>
                     </div>
                 </div>
 

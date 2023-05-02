@@ -3,6 +3,8 @@ include_once '/Desafio/controller/RefreshPage.php';
 include_once 'head.php';
 include_once '/Desafio/model/conexao.class.php';
 include_once '/Desafio/model/Manager.class.php';
+include_once "/Desafio/core/core.php";
+
 
 $manager = new Manager();
 ?>
@@ -38,13 +40,13 @@ $manager = new Manager();
         <div class="container-fluid">
             <div class="col-md-6">
                 <h5 class="text-star texto-centro">
-                    <a href="http://localhost/Desafio/home/logout" class="btn btn-danger btn-xs"><i class=" fa fa-x"></i>Sair</a>
+                    <a href="http://localhost/Desafio-extra/home/logout" class="btn btn-danger btn-xs"><i class=" fa fa-x"></i>Sair</a>
                 </h5>
             </div>
 
             <div class="col-md-6">
                 <h5 class="text-end texto-centro">
-                    <a href="http://localhost/Desafio/register" class="btn btn-primary btn-xs"><i class="pr-2 fa fa-user-plus"></i>Registrar</a>
+                    <a href="http://localhost/Desafio-extra/register" class="btn btn-primary btn-xs"><i class="pr-2 fa fa-user-plus"></i>Registrar</a>
                 </h5>
             </div>
         </div>
@@ -79,7 +81,7 @@ $manager = new Manager();
                     <td><?php echo $client['phone']; ?></td>
                     <td class="text-center td-edit">
 
-                        <form method="post" action="http://localhost/Desafio/update">
+                        <form method="post" action="http://localhost/Desafio-extra/update">
 
                             <input type="hidden" name="id" value="<?= $client['id'] ?>">
 
@@ -90,7 +92,7 @@ $manager = new Manager();
 
                     </td>
                     <td class="text-center td-edit">
-                        <form method="post" action="/Desafio/controller/delete_client.php"
+                        <form method="post" action="http://localhost/Desafio-extra/delete"
                               onclick="return confirm('Tem certeza que deseja excluir?');">
 
                             <input type="hidden" name="id" value="<?= $client['id'] ?>">

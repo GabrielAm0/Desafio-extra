@@ -9,6 +9,6 @@ $id = $_POST['id'];
 
 if (isset($id) && !empty($id)) {
     $manager->updateClient("registros", $update_client, $id);
-    header("Location: ../view/home.php");
+    header("Location: http://localhost/Desafio-extra/");
     echo '<script> alert("Cliente editado com sucesso!");</script>';
 }
